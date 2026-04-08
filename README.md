@@ -1,4 +1,21 @@
-# Verification Steps
+# Rita with Sessions
+
+This repo is an example of using [Rita](https://github.com/synadia-labs/rita) with 
+[SCS](https://githun.com/alexedwards/scs).
+
+
+## Requirements
+
+- NATS
+- [task](https://taskfile.dev)
+- [air](https://github.com/air-verse/air) (if using `task`)
+
+## Getting started
+
+The following walks through the full process of registering a user, logging in,
+and logging out. It also has a demo of a per-user login history projection.
+
+Each side effect is a durable consumer so we do not replay then when the log is replayed.
 
 ## 1. Start the server
 
