@@ -1,0 +1,15 @@
+version: "3"
+
+vars:
+  NATS_URL: nats://localhost:5552
+
+tasks:
+  dev:
+    desc: Start the server with air (live reload)
+    cmd: air
+
+  nats:
+    desc: Open nats CLI against the embedded server
+    cmd: nats {{.CLI_ARGS}}
+    env:
+      NATS_URL: "{{.NATS_URL}}"
