@@ -1,7 +1,7 @@
 # Rita with Sessions
 
 This repo is an example of using [Rita](https://github.com/synadia-labs/rita) with 
-[SCS](https://githun.com/alexedwards/scs).
+[SCS](https://github.com/alexedwards/scs).
 
 
 ## Requirements
